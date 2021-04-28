@@ -17,11 +17,11 @@ function Sidebar({isOpen, toggle}) {
             <Wrapper>
                 <Menu>
                     <MenuLink to="about"> Despre </MenuLink>
-                    <MenuLink to="discover"> Descopera </MenuLink>
-                    <MenuLink to="login"> Intra in cont </MenuLink>
+                    <MenuLink to="discover"> Descoperă </MenuLink>
+                    <MenuLink to="login"> Intră în cont </MenuLink>
                 </Menu>
                 <Button>
-                    <ButtonLink to="/register"> Creeaza cont </ButtonLink>
+                    <ButtonLink to="/register"> Creează cont </ButtonLink>
                 </Button>
             </Wrapper>
         </Container>

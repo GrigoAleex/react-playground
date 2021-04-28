@@ -21,11 +21,11 @@ const Navbar = ({ toggle }) => {
                     <MobileIcon onClick={toggle}> <FaBars /> </MobileIcon>
                     <Menu>
                         <MenuItem> <MenuLink to="about"> Despre </MenuLink> </MenuItem>
-                        <MenuItem> <MenuLink to="discover"> Descopera </MenuLink> </MenuItem>
-                        <MenuItem> <MenuLink to="sign-in"> Intra in cont </MenuLink> </MenuItem>
+                        <MenuItem> <MenuLink to="discover"> Descoperă </MenuLink> </MenuItem>
+                        <MenuItem> <MenuLink to="sign-in"> Intră în cont </MenuLink> </MenuItem>
                     </Menu>
                     <Button>
-                        <ButtonLink to="/register"> Creeaza cont </ButtonLink>
+                        <ButtonLink to="/register"> Creează cont </ButtonLink>
                     </Button>
                 </Container>
             </Nav>

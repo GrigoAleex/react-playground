@@ -3,13 +3,15 @@ import { Link as routerLink } from "react-router-dom";
 import { Link as scrollLink } from "react-scroll";
 
 export const Nav = styled.nav`
-    background: #000;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    width: 100vw;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 10;
 

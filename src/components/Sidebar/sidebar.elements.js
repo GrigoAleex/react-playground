@@ -8,7 +8,8 @@ export const Container = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #000;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(10px);
     display: grid;
     align-items: center;
     opacity: ${ ({isOpen}) => (isOpen ? '100%' : '0') };
